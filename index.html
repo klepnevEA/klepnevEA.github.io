@@ -9,13 +9,13 @@
     <meta name="description" content="USETECH" />
     <!-- Yandex.Metrika counter -->
   </head>
-  <body>
+  <body id="body">
     <div class="wrapper">
       <header class="header">
   <div class="container header__container">
-    <div class="header__logo">
+    <a href="#" class="header__logo">
       <img src="../img/logo.svg" alt="logo" />
-    </div>
+    </a>
     <ul class="header__nav">
       <li class="header__nav-item">
         <a href="" class="header__nav-link">Структура компании</a>
@@ -26,6 +26,7 @@
     </ul>
     <div class="header__aside">
       <div class="header__user">
+        <button class="header__close-button" id="close-button"></button>
         <div class="header__user-photo">
           <img src="../img/stubs/Rectangle.jpg" alt="user photo" />
         </div>
@@ -586,11 +587,65 @@
           </div>
         </main>
       </div>
+      <button class="aside-menu-button" id="aside-menu-button">
+        <svg>
+          <use xlink:href="./img/sprite.svg#TextAlignRight"></use>
+        </svg>
+      </button>
+      <ul class="nav-mobile">
+        <li class="nav-mobile__item nav-mobile__item--active">
+          <a href="#" class="nav-mobile__link">
+            <div class="nav-mobile__icon">
+              <svg>
+                <use xlink:href="./img/sprite.svg#HouseSimple"></use>
+              </svg>
+            </div>
+            Главная
+          </a>
+        </li>
+        <li class="nav-mobile__item">
+          <a href="#" class="nav-mobile__link">
+            <div class="nav-mobile__icon">
+              <svg>
+                <use xlink:href="./img/sprite.svg#UserCircle"></use>
+              </svg>
+            </div>
+            Контакты
+          </a>
+        </li>
+        <li class="nav-mobile__item">
+          <a href="#" class="nav-mobile__link">
+            <div class="nav-mobile__icon">
+              <svg>
+                <use xlink:href="./img/sprite.svg#NewspaperClipping"></use>
+              </svg>
+            </div>
+            Новости
+          </a>
+        </li>
+        <li class="nav-mobile__item">
+          <a href="#" class="nav-mobile__link">
+            <div class="nav-mobile__icon">
+              <svg>
+                <use xlink:href="./img/sprite.svg#PresentationChart"></use>
+              </svg>
+            </div>
+            Универ
+          </a>
+        </li>
+        <li class="nav-mobile__item">
+          <a href="#" class="nav-mobile__link">
+            <div class="nav-mobile__icon">
+              <svg>
+                <use xlink:href="./img/sprite.svg#SquaresFour"></use>
+              </svg>
+            </div>
+            Сервисы
+          </a>
+        </li>
+      </ul>
       <!-- footer -->
-      <footer class="footer">
-  <div class="container"></div>
-</footer>
-
+      
     </div>
 
     <script src="./js/script.min.js"></script>
