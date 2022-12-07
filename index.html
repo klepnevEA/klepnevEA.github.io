@@ -4,1093 +4,661 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Teal HR</title>
+    <title>USETECH</title>
     <link rel="stylesheet" href="./css/main.min.css" />
-    <meta name="description" content="Teal HR" />
-    <link rel="icon" type="image/svg+xml" href="./img/favicon.svg" />
-    <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico" />
+    <meta name="description" content="USETECH" />
+    <!-- Yandex.Metrika counter -->
   </head>
-  <body>
-    <div class="wrapper" id="wrapper">
-      <header class="header" id="header">
+  <body id="body">
+    <div class="wrapper">
+      <header class="header">
   <div class="container header__container">
-    <a href="#sectionMain" class="logo header__logo scroll-to">
-      <span class="logo__text">логотип tealHR</span>
-      <svg>
-        <use xlink:href="./img/sprite.svg#logo"></use>
-      </svg>
+    <a href="#" class="header__logo">
+      <img src="../img/logo.svg" alt="logo" />
     </a>
-
-    <nav class="nav">
-      <ul class="nav__list">
-        <li class="nav__item sectionStatistics active">
-          <a href="#sectionStatistics" class="nav__link scroll-to">Подробнее</a>
-        </li>
-        <li class="nav__item sectionWhatHave">
-          <a href="#sectionWhatHave" class="nav__link scroll-to">Функционал</a>
-        </li>
-        <li class="nav__item sectionActionPlan">
-          <a href="#sectionActionPlan" class="nav__link scroll-to"
-            >Процесс работы</a
-          >
-        </li>
-        <li class="nav__item sectionWhoSuits">
-          <a href="#sectionWhoSuits" class="nav__link scroll-to">Стоимость</a>
-        </li>
-        <li class="nav__item sectionCases">
-          <a href="#sectionCases" class="nav__link scroll-to">Кейсы</a>
-        </li>
-        <li class="nav__item sectionSlider">
-          <a href="#sectionSlider" class="nav__link scroll-to">Отзывы</a>
-        </li>
-      </ul>
-    </nav>
-    <div class="header__aside-buttons">
-      <a class="button button--header" href="https://teal-hr.pro/registration"
-        >Попробовать бесплатно</a
-      >
-      <a href="#" class="button-mobile-menu" id="button-mobile-menu">
-        <div class="button-mobile-menu__el-1"></div>
-        <div class="button-mobile-menu__el-2"></div>
-        <div class="button-mobile-menu__el-3"></div>
-      </a>
+    <ul class="header__nav">
+      <li class="header__nav-item">
+        <a href="" class="header__nav-link">Структура компании</a>
+      </li>
+      <li class="header__nav-item">
+        <a href="" class="header__nav-link">Косты</a>
+      </li>
+    </ul>
+    <div class="header__aside">
+      <div class="header__user">
+        <button class="header__close-button" id="close-button"></button>
+        <div class="header__user-photo">
+          <img src="../img/stubs/Rectangle.jpg" alt="user photo" />
+        </div>
+        <div class="header__user-info">
+          <div class="header__user-name">Шевцов Евгений Иванович</div>
+          <div class="header__user-position">Руководитель UX-направления</div>
+        </div>
+      </div>
     </div>
   </div>
 </header>
 
 
-      <main class="main">
-        <!-- Платформа нематериальной мотивации сотрудников -->
-        <section class="section section--main" id="sectionMain">
-  <div class="section-wrapper">
-    <div class="container">
-      <div class="section-main">
-        <div class="section-main__content">
-          <h1 class="title section-main__title">
-            Платформа нематериальной<br />
-            <span>мотивации</span> сотрудников
-          </h1>
-          <div class="text text--big">для бизнеса, которому не все равно</div>
-        </div>
-        <div class="section-main__footer">
-          <div class="row section-main__buttons">
-            <div class="col col-auto">
-              <a
-                href="https://teal-hr.pro/registration"
-                class="button button--wide"
-                >Попробовать бесплатно</a
-              >
-            </div>
-            <div class="col col-auto">
-              <a href="#" class="button button--outline button--wide">
-                <svg class="button__icon">
-                  <use xlink:href="./img/sprite-icons.svg#download"></use>
+      <div class="container container--main">
+        <aside class="aside">
+  <div class="aside__wrapper">
+    <div class="aside__content">
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="/" class="nav__link">
+              <div class="nav__icon">
+                <svg>
+                  <use xlink:href="./img/sprite.svg#HouseSimple"></use>
                 </svg>
-                Скачать презентацию</a
-              >
-            </div>
-          </div>
-          <div class="section-main__comment">
-            <svg class="section-main__comment-icon">
-              <use xlink:href="./img/sprite-icons.svg#user-octagon"></use>
-            </svg>
-            <div class="text text--small">
-              Для компаний до 10 человек доступ бесплатно
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="section__decor-right"></div>
-</section>
-
-
-        <!-- По статистике найм нового сотрудника дороже удержания в 7 раз -->
-        <section class="section section--statistics" id="sectionStatistics">
-  <div class="section-wrapper">
-    <div class="container">
-      <div class="section-statistics">
-        <h2 class="title title--white title--center section-statistics__title">
-          По статистике найм нового<br />
-          сотрудника дороже удержания в 7 раз
-        </h2>
-        <div class="section-statistics__delimiter">
-          <div>Скрытые затраты на найм</div>
-        </div>
-        <div class="section-statistics__expenses">
-          <div class="section-statistics__expenses-button">
-            <div class="section-statistics__expenses-content">
-              <svg class="section-statistics__expenses-icon">
-                <use xlink:href="./img/sprite-icons.svg#profile-remove"></use>
-              </svg>
-              Расходы на период до увольнения с работы
-            </div>
-          </div>
-          <div class="section-statistics__expenses-button">
-            <div class="section-statistics__expenses-content">
-              <svg class="section-statistics__expenses-icon">
-                <use xlink:href="./img/sprite-icons.svg#sms-star"></use>
-              </svg>
-              Затраты на вакансию
-            </div>
-          </div>
-
-          <div class="section-statistics__expenses-button">
-            <div class="section-statistics__expenses-content">
-              <svg class="section-statistics__expenses-icon">
-                <use xlink:href="./img/sprite-icons.svg#book"></use>
-              </svg>
-              Затраты на адаптацию и обучение
-            </div>
-          </div>
-          <div class="section-statistics__expenses-button">
-            <div class="section-statistics__expenses-content">
-              <svg class="section-statistics__expenses-icon">
-                <use xlink:href="./img/sprite-icons.svg#menu-board"></use>
-              </svg>
-              Затраты на найм и решение административных задач
-            </div>
-          </div>
-          <div class="section-statistics__expenses-button">
-            <div class="section-statistics__expenses-content">
-              <svg class="section-statistics__expenses-icon">
-                <use xlink:href="./img/sprite-icons.svg#receipt-text"></use>
-              </svg>
-              Дополнительные затраты на найм
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-        <!-- Как мы поможем вашему бизнесу -->
-        <section class="section section--how-help" id="sectionHowHelp">
-  <div class="section-wrapper">
-    <div class="container">
-      <div class="section-how-help">
-        <h2 class="title title--center how-help__title-main">
-          Как мы поможем вашему бизнесу
-        </h2>
-        <div class="how-help">
-          <div class="how-help__col">
-            <div class="how-help__title">Сэкономить</div>
-            <div class="how-help__cell-wpap">
-              <div class="how-help__cell">
-                <div class="how-help__box">
-                  <div class="how-help__cell-icon">
-                    <svg>
-                      <use
-                        xlink:href="./img/sprite-icons.svg#percentage-circle"
-                      ></use>
-                    </svg>
-                  </div>
-                  <div class="how-help__cell-text">
-                    Уменьшим расходы<br />
-                    на мотивацию
-                  </div>
-                </div>
               </div>
-              <div class="how-help__cell">
-                <div class="how-help__box">
-                  <div class="how-help__cell-icon">
-                    <svg>
-                      <use
-                        xlink:href="./img/sprite-icons.svg#percentage-circle"
-                      ></use>
-                    </svg>
-                  </div>
-                  <div class="how-help__cell-text">
-                    HR-бренд<br />
-                    начнет работать на вас
-                  </div>
-                </div>
-              </div>
-              <div class="how-help__cell">
-                <div class="how-help__box">
-                  <div class="how-help__cell-icon">
-                    <svg>
-                      <use
-                        xlink:href="./img/sprite-icons.svg#percentage-circle"
-                      ></use>
-                    </svg>
-                  </div>
-                  <div class="how-help__cell-text">
-                    На 50%<br />
-                    cнизим затраты на найм
-                  </div>
-                </div>
-              </div>
-              <div class="how-help__cell">
-                <div class="how-help__box">
-                  <div class="how-help__cell-icon">
-                    <svg>
-                      <use
-                        xlink:href="./img/sprite-icons.svg#percentage-circle"
-                      ></use>
-                    </svg>
-                  </div>
-                  <div class="how-help__cell-text">
-                    На 18%<br />
-                    снизим текучесть
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="how-help__divider"></div>
-          <div class="how-help__col">
-            <div class="how-help__title">Заработать</div>
-            <div class="how-help__cell-wpap">
-              <div class="how-help__cell">
-                <div class="how-help__box">
-                  <div class="how-help__cell-icon">
-                    <svg>
-                      <use
-                        xlink:href="./img/sprite-icons.svg#dollar-circle"
-                      ></use>
-                    </svg>
-                  </div>
-                  <div class="how-help__cell-text">
-                    На 10%<br />
-                    выше лояльность клиентов
-                  </div>
-                </div>
-              </div>
-              <div class="how-help__cell">
-                <div class="how-help__box">
-                  <div class="how-help__cell-icon">
-                    <svg>
-                      <use
-                        xlink:href="./img/sprite-icons.svg#dollar-circle"
-                      ></use>
-                    </svg>
-                  </div>
-                  <div class="how-help__cell-text">
-                    На 18 %<br />
-                    повышение продаж
-                  </div>
-                </div>
-              </div>
-              <div class="how-help__cell">
-                <div class="how-help__box">
-                  <div class="how-help__cell-icon">
-                    <svg>
-                      <use
-                        xlink:href="./img/sprite-icons.svg#dollar-circle"
-                      ></use>
-                    </svg>
-                  </div>
-                  <div class="how-help__cell-text">
-                    На 14% повышение<br />
-                    производительности
-                  </div>
-                </div>
-              </div>
-              <div class="how-help__cell">
-                <div class="how-help__box">
-                  <div class="how-help__cell-icon">
-                    <svg>
-                      <use
-                        xlink:href="./img/sprite-icons.svg#dollar-circle"
-                      ></use>
-                    </svg>
-                  </div>
-                  <div class="how-help__cell-text">
-                    На 23%<br />
-                    выше рентабельность
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-        <!-- Как мы поможем вашему бизнесу -->
-        <section class="section section--what-have" id="sectionWhatHave">
-  <div class="section-wrapper">
-    <div class="container">
-      <div class="section-what-have">
-        <div class="what-have">
-          <div class="what-have__content">
-            <h2 class="title what-have__title">Что у нас есть</h2>
-            <div class="text what-have__text">
-              Нет необходимости закупать отдельно опросы, корпоративный портал
-              или системы геймификации. Мы интегрируем работающие у вас продукты
-              в нашу платформу или интегрируемся в ваш корпоративный портал.
-            </div>
-            <div class="what-have__accordeon">
-              <!--1-->
-              <div
-                class="what-have__accordeon-item what-have-item active"
-                data-item="what-have-item-1"
-              >
-                <div class="what-have__accordeon-wrapper">
-                  <div class="what-have__accordeon-icon">
-                    <svg>
-                      <use xlink:href="./img/sprite-icons.svg#category-2"></use>
-                    </svg>
-                  </div>
-                  <div class="what-have__accordeon-content">
-                    <div class="what-have__accordeon-title">
-                      Конструктор опросов
-                    </div>
-                    <div class="what-have__accordeon-text">
-                      Шаблонные вопросы для быстрого запуска, нейросеть для
-                      интерпретации результатов
-                    </div>
-                    <a
-                      href="https://teal-hr.pro/registration"
-                      class="what-have__accordeon-link"
-                      >Попробовать сейчас
-                      <svg>
-                        <use xlink:href="./img/sprite-icons.svg#received"></use>
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-                <div class="what-have__img-mobile">
-                  <img
-                    src="../img/what-have/mobile/benefit-1.png"
-                    alt="benefit-1.png"
-                  />
-                </div>
-              </div>
-              <!--2-->
-              <div
-                class="what-have__accordeon-item what-have-item"
-                data-item="what-have-item-2"
-              >
-                <div class="what-have__accordeon-wrapper">
-                  <div class="what-have__accordeon-icon">
-                    <svg>
-                      <use
-                        xlink:href="./img/sprite-icons.svg#flash-circle"
-                      ></use>
-                    </svg>
-                  </div>
-                  <div class="what-have__accordeon-content">
-                    <div class="what-have__accordeon-title">
-                      Внутренняя валюта за полезные для компании активности
-                    </div>
-                    <div class="what-have__accordeon-text">
-                      Контроль эмиссии валюты, балансировщик ценности
-                      активностей
-                    </div>
-                    <a
-                      href="https://teal-hr.pro/registration"
-                      class="what-have__accordeon-link"
-                      >Попробовать сейчас
-                      <svg>
-                        <use xlink:href="./img/sprite-icons.svg#received"></use>
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-                <div class="what-have__img-mobile">
-                  <img
-                    src="../img/what-have/mobile/benefit-2.png"
-                    alt="benefit-2.png"
-                  />
-                </div>
-              </div>
-              <!--3-->
-              <div
-                class="what-have__accordeon-item what-have-item"
-                data-item="what-have-item-3"
-              >
-                <div class="what-have__accordeon-wrapper">
-                  <div class="what-have__accordeon-icon">
-                    <svg>
-                      <use
-                        xlink:href="./img/sprite-icons.svg#shopping-cart"
-                      ></use>
-                    </svg>
-                  </div>
-                  <div class="what-have__accordeon-content">
-                    <div class="what-have__accordeon-title">
-                      Корпоративный онлайн-магазин
-                    </div>
-                    <div class="what-have__accordeon-text">
-                      Цифровые и физические товары, контроль остатков
-                    </div>
-                    <a
-                      href="https://teal-hr.pro/registration"
-                      class="what-have__accordeon-link"
-                      >Попробовать сейчас
-                      <svg>
-                        <use xlink:href="./img/sprite-icons.svg#received"></use>
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-                <div class="what-have__img-mobile">
-                  <img
-                    src="../img/what-have/mobile/benefit-3.png"
-                    alt="benefit-3.png"
-                  />
-                </div>
-              </div>
-              <!--4-->
-              <div
-                class="what-have__accordeon-item what-have-item"
-                data-item="what-have-item-4"
-              >
-                <div class="what-have__accordeon-wrapper">
-                  <div class="what-have__accordeon-icon">
-                    <svg>
-                      <use xlink:href="./img/sprite-icons.svg#graph"></use>
-                    </svg>
-                  </div>
-                  <div class="what-have__accordeon-content">
-                    <div class="what-have__accordeon-title">
-                      Контроль статистики и отслеживание метрик
-                    </div>
-                    <div class="what-have__accordeon-text">
-                      Статистика по работе программы лояльности, метрики
-                      HR-бренда
-                    </div>
-                    <a
-                      href="https://teal-hr.pro/registration"
-                      class="what-have__accordeon-link"
-                      >Попробовать сейчас
-                      <svg>
-                        <use xlink:href="./img/sprite-icons.svg#received"></use>
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-                <div class="what-have__img-mobile">
-                  <img
-                    src="../img/what-have/mobile/benefit-4.png"
-                    alt="benefit-4.png"
-                  />
-                </div>
-              </div>
-              <!--5-->
-              <div
-                class="what-have__accordeon-item what-have-item"
-                data-item="what-have-item-5"
-              >
-                <div class="what-have__accordeon-wrapper">
-                  <div class="what-have__accordeon-icon">
-                    <svg>
-                      <use xlink:href="./img/sprite-icons.svg#user-tag"></use>
-                    </svg>
-                  </div>
-                  <div class="what-have__accordeon-content">
-                    <div class="what-have__accordeon-title">
-                      Профили сотрудников и личные дела
-                    </div>
-                    <div class="what-have__accordeon-text">
-                      Досье для руководителей, адресная книга для сотрудников
-                    </div>
-                    <a
-                      href="https://teal-hr.pro/registration"
-                      class="what-have__accordeon-link"
-                      >Попробовать сейчас
-                      <svg>
-                        <use xlink:href="./img/sprite-icons.svg#received"></use>
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-                <div class="what-have__img-mobile">
-                  <img
-                    src="../img/what-have/mobile/benefit-5.png"
-                    alt="benefit-5.png"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="what-have-slider">
-      <div
-        class="what-have-slider__item what-have-slide active"
-        id="what-have-item-1"
-      >
-        <img src="../img/what-have/desctop/benefit-1.png" alt="benefit-1.png" />
-      </div>
-      <div class="what-have-slider__item what-have-slide" id="what-have-item-2">
-        <img src="../img/what-have/desctop/benefit-2.png" alt="benefit-2.png" />
-      </div>
-      <div class="what-have-slider__item what-have-slide" id="what-have-item-3">
-        <img src="../img/what-have/desctop/benefit-3.png" alt="benefit-3.png" />
-      </div>
-      <div class="what-have-slider__item what-have-slide" id="what-have-item-4">
-        <img src="../img/what-have/desctop/benefit-4.png" alt="benefit-4.png" />
-      </div>
-      <div class="what-have-slider__item what-have-slide" id="what-have-item-5">
-        <img src="../img/what-have/desctop/benefit-5.png" alt="benefit-5.png" />
-      </div>
-    </div>
-  </div>
-</section>
-
-
-        <!-- Наш план действий принесет ощутимый результат за 82 дня -->
-        <section class="section section--action-plan" id="sectionActionPlan">
-  <div class="section-wrapper">
-    <div class="container">
-      <div class="section-action-plan">
-        <div class="action-plan">
-          <div class="action-plan__cell">
-            <h2 class="title action-plan__title">
-              Наш <span>план действий</span><br />
-              принесет ощутимый<br />
-              результат <span>за 82 дня</span>
-            </h2>
-          </div>
-          <div class="action-plan__divider">
-            <svg>
-              <use xlink:href="./img/sprite-icons.svg#arrow-right"></use>
-            </svg>
-          </div>
-          <div class="action-plan__cell">
-            <ul class="action-plan__list">
-              <div class="action-plan__item">
-                <div class="action-plan__item-title">1 шаг</div>
-                <div class="action-plan__item-text">
-                  Выявляем боли сотрудников
-                </div>
-              </div>
-              <div class="action-plan__item">
-                <div class="action-plan__item-title">2 шаг</div>
-                <div class="action-plan__item-text">
-                  Разрабатываем систему мотивации
-                </div>
-              </div>
-              <div class="action-plan__item">
-                <div class="action-plan__item-title">3 шаг</div>
-                <div class="action-plan__item-text">
-                  Отслеживаем метрики и корректируем стратегию
-                </div>
-              </div>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-        <!-- Кому подходит -->
-        <section class="section section--who-suits" id="sectionWhoSuits">
-  <div class="section-wrapper">
-    <div class="container">
-      <div class="section-who-suits">
-        <div class="who-suits">
-          <h2 class="title title--center who-suits__title">Кому подходит</h2>
-          <div class="who-suits__content">
-            <!--who-suits__block-->
-            <div class="who-suits__block who-suits__block--main">
-              <div class="who-suits__header">
-                <div class="who-suits__header-icon">
-                  <svg>
-                    <use xlink:href="./img/sprite-icons.svg#verify"></use>
-                  </svg>
-                </div>
-                <div class="who-suits__header-text">
-                  Для малого и среднего бизнеса
-                </div>
-              </div>
-              <div class="who-suits__body">
-                <div class="who-suits__main-info">
-                  <div class="who-suits__main-title">
-                    <div class="who-suits__main-prise">
-                      <span>от</span>
-                      <span class="who-suits__main-prise-number">60</span>
-                      <span>руб<br />за 1 сотрудника</span>
-                    </div>
-                  </div>
-                  <div class="who-suits__title-block">Пакет «Основной»</div>
-                  <a
-                    href="https://teal-hr.pro/registration"
-                    class="button button--wide"
-                    >Попробовать бесплатно</a
-                  >
-                </div>
-                <div>
-                  <ul class="who-suits__list">
-                    <li class="who-suits__item">
-                      <div class="who-suits__item-icon">
-                        <svg>
-                          <use
-                            xlink:href="./img/sprite-icons.svg#successPlan"
-                          ></use>
-                        </svg>
-                      </div>
-                      Конструктор опросов
-                    </li>
-                    <li class="who-suits__item">
-                      <div class="who-suits__item-icon">
-                        <svg>
-                          <use
-                            xlink:href="./img/sprite-icons.svg#successPlan"
-                          ></use>
-                        </svg>
-                      </div>
-                      Онлайн-магазин
-                    </li>
-                    <li class="who-suits__item">
-                      <div class="who-suits__item-icon">
-                        <svg>
-                          <use
-                            xlink:href="./img/sprite-icons.svg#successPlan"
-                          ></use>
-                        </svg>
-                      </div>
-                      Профили сотрудников и личные дела
-                    </li>
-                    <li class="who-suits__item">
-                      <div class="who-suits__item-icon">
-                        <svg>
-                          <use
-                            xlink:href="./img/sprite-icons.svg#successPlan"
-                          ></use>
-                        </svg>
-                      </div>
-                      Статистика и HR-метрики
-                    </li>
-                    <li class="who-suits__item">
-                      <div class="who-suits__item-icon">
-                        <svg>
-                          <use
-                            xlink:href="./img/sprite-icons.svg#successPlan"
-                          ></use>
-                        </svg>
-                      </div>
-                      Техническая поддержка
-                    </li>
-                    <li class="who-suits__item">
-                      <div class="who-suits__item-icon">
-                        <svg>
-                          <use
-                            xlink:href="./img/sprite-icons.svg#successPlan"
-                          ></use>
-                        </svg>
-                      </div>
-                      Кастомизация под брендбук
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <!--who-suits__block-->
-            <!--who-suits__block-->
-            <div class="who-suits__block">
-              <div class="who-suits__header">
-                <div class="who-suits__header-icon">
-                  <svg>
-                    <use xlink:href="./img/sprite-icons.svg#crown"></use>
-                  </svg>
-                </div>
-                <div class="who-suits__header-text">Для крупного бизнеса</div>
-              </div>
-              <div class="who-suits__body">
-                <div class="who-suits__main-info">
-                  <div class="who-suits__main-title who-suits__main-title--mb">
-                    <div class="who-suits__main-messages">
-                      <svg>
-                        <use
-                          xlink:href="./img/sprite-icons.svg#messages-2"
-                        ></use>
-                      </svg>
-                    </div>
-                  </div>
-                  <div class="who-suits__title-block">Пакет «Под ключ»</div>
-                  <a
-                    href="https://t.me/Morozovc"
-                    class="button button--wide button--outline"
-                    >Написать в Telegram</a
-                  >
-                </div>
-                <div>
-                  <div class="who-suits__box">
-                    <div class="who-suits__box-icon">
-                      <svg>
-                        <use xlink:href="./img/sprite-icons.svg#flash"></use>
-                      </svg>
-                    </div>
-                    Все возможности пакета «Основной»
-                  </div>
-                  <div class="who-suits__plus">+</div>
-                  <ul class="who-suits__list">
-                    <li class="who-suits__item">
-                      <div class="who-suits__item-icon">
-                        <svg>
-                          <use
-                            xlink:href="./img/sprite-icons.svg#successPlan"
-                          ></use>
-                        </svg>
-                      </div>
-                      Развертывание на ваших серверах
-                    </li>
-                    <li class="who-suits__item">
-                      <div class="who-suits__item-icon">
-                        <svg>
-                          <use
-                            xlink:href="./img/sprite-icons.svg#successPlan"
-                          ></use>
-                        </svg>
-                      </div>
-                      Интеграция с вашими системами
-                    </li>
-                    <li class="who-suits__item">
-                      <div class="who-suits__item-icon">
-                        <svg>
-                          <use
-                            xlink:href="./img/sprite-icons.svg#successPlan"
-                          ></use>
-                        </svg>
-                      </div>
-                      Консалтинг под ключ
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-        <!-- кейсы -->
-        <section class="section section--cases" id="sectionCases">
-  <div class="section-wrapper">
-    <div class="container">
-      <div class="section-cases">
-        <div class="cases">
-          <div class="what-have__content">
-            <h2 class="title what-have__title">Кейсы</h2>
-            <h2 class="text what-have__text">
-              Нет необходимости закупать отдельно опросы, корпоративный портал
-              или системы геймификации. Мы интегрируем работающие у вас продукты
-              в нашу платформу или интегрируемся в ваш корпоративный портал.
-            </h2>
-            <div class="what-have__accordeon">
-              <!--1-->
-              <div
-                class="what-have__accordeon-item cases-item active"
-                data-case="cases-slide-1"
-              >
-                <div class="what-have__accordeon-wrapper">
-                  <div class="what-have__accordeon-icon">
-                    <svg>
-                      <use
-                        xlink:href="./img/sprite-icons.svg#brifecase-tick"
-                      ></use>
-                    </svg>
-                  </div>
-                  <div class="what-have__accordeon-content">
-                    <div class="what-have__accordeon-title">
-                      Кейс IT-компания
-                    </div>
-
-                    <div class="what-have__accordeon-sub-title">Проблема:</div>
-                    <div class="what-have__accordeon-text">
-                      Текучка 70%, нет вовлеченных сотрудников, расходы из-за
-                      текучести 40% от годового оклада
-                    </div>
-                    <div class="what-have__accordeon-sub-title">Решение:</div>
-                    <div class="what-have__accordeon-text">
-                      Сбалансировали ценности компании и сотрудников. Предложили
-                      разные способы участия в жизни компании, чем повысили
-                      вовлеченность до 70%. Развернули систему лояльности и
-                      снизили текучесть до 15%
-                    </div>
-                    <a href="" class="what-have__accordeon-link"
-                      >Хочу также
-                      <svg>
-                        <use xlink:href="./img/sprite-icons.svg#received"></use>
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <!--2-->
-              <div
-                class="what-have__accordeon-item cases-item"
-                data-case="cases-slide-2"
-              >
-                <div class="what-have__accordeon-wrapper">
-                  <div class="what-have__accordeon-icon">
-                    <svg>
-                      <use
-                        xlink:href="./img/sprite-icons.svg#brifecase-tick"
-                      ></use>
-                    </svg>
-                  </div>
-                  <div class="what-have__accordeon-content">
-                    <div class="what-have__accordeon-title">
-                      Кейс Синие воротнички
-                    </div>
-
-                    <div class="what-have__accordeon-sub-title">Проблема:</div>
-                    <div class="what-have__accordeon-text">
-                      На 30 000 сотрудников текучка 67%, мало квалифицированных
-                      кадров
-                    </div>
-                    <div class="what-have__accordeon-sub-title">Решение:</div>
-                    <div class="what-have__accordeon-text">
-                      Сформировали инструмент мотивации. Выстроили регулярную
-                      обратную связь через опросы. Повысили лояльность к
-                      руководству. Снизили расходы на мотивацию на 10 млн
-                    </div>
-                    <a href="" class="what-have__accordeon-link"
-                      >Хочу также
-                      <svg>
-                        <use xlink:href="./img/sprite-icons.svg#received"></use>
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <!--3-->
-              <div
-                class="what-have__accordeon-item cases-item"
-                data-case="cases-slide-3"
-              >
-                <div class="what-have__accordeon-wrapper">
-                  <div class="what-have__accordeon-icon">
-                    <svg>
-                      <use
-                        xlink:href="./img/sprite-icons.svg#brifecase-tick"
-                      ></use>
-                    </svg>
-                  </div>
-                  <div class="what-have__accordeon-content">
-                    <div class="what-have__accordeon-title">Франшизы</div>
-
-                    <div class="what-have__accordeon-sub-title">Проблема:</div>
-                    <div class="what-have__accordeon-text">
-                      Неэффективное ведение соцсетей, текучесть среди
-                      сотрудников 138%
-                    </div>
-                    <div class="what-have__accordeon-sub-title">Решение:</div>
-                    <div class="what-have__accordeon-text">
-                      Повысили объем продаж с соцсетей. Сформировали инструмент
-                      мотивации. Повысили сплоченность и вовлеченность
-                      сотрудников через соревновательный формат, чем снизили
-                      текучесть до 64%
-                    </div>
-                    <a href="" class="what-have__accordeon-link"
-                      >Хочу также
-                      <svg>
-                        <use xlink:href="./img/sprite-icons.svg#received"></use>
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="what-have-slider cases-slider">
-      <div class="what-have-slider__item cases-slide active" id="cases-slide-1">
-        <img src="../img/cases/desctop/case-1.png" alt="case-1.png" />
-      </div>
-      <div class="what-have-slider__item cases-slide" id="cases-slide-2">
-        <img src="../img/cases/desctop/case-2.png" alt="case-2.png" />
-      </div>
-      <div class="what-have-slider__item cases-slide" id="cases-slide-3">
-        <img src="../img/cases/desctop/case-3.png" alt="case-3.png" />
-      </div>
-    </div>
-  </div>
-</section>
-
-
-        <!-- отзывы -->
-        <section class="section section--slider" id="sectionSlider">
-  <div class="section-wrapper">
-    <div class="container">
-      <div class="section-slider">
-        <div class="slider">
-          <ul class="slider__list" id="main-slider">
-            <li class="slider__item">
-              <p>
-                «Понравилось, что можно все внутренние HR-процессы вытащить из
-                табличек на гугл диске, контролировать расходы на управление
-                лояльностью, попадать в бюджеты и наглядно видеть статистику по
-                опросам. Все в одном месте. Поэтому мы добавили Teal HR в пакет
-                для резидентов Иннополиса и показываем всем желающим, как
-                организовать процесс у себя в компании»
-              </p>
-            </li>
-            <li class="slider__item">
-              <p>
-                «Спустя 4 месяца удаленной работы в карантинном режиме,
-                внутренние опросы настроения, 1to1 и eNPS показали, что мы
-                теряем связь с сотрудниками, а спустя еще 2 месяца - сильно
-                увеличилась текучка кадров.
-              </p>
-              <p>
-                И только оперативное внедрение Teal HR, который затронул более
-                87% сотрудников, помогло в течение года выровнять и улучшить
-                ситуацию.»
-              </p>
-            </li>
-          </ul>
-          <div class="slider__footer">
-            <div class="slider__authors" id="slider-baner">
-              <div class="slider__author">
-                <div class="slider__author-photo">
-                  <img src="../img/slider/photo-1.jpg" alt="Марат Абдуллин" />
-                </div>
-                <div class="slider__author-content">
-                  <div class="slider__author-name">Марат Абдуллин</div>
-                  <div class="slider__author-position">
-                    Директор RCI ОЭЗ Иннополис
-                  </div>
-                </div>
-              </div>
-              <div class="slider__author">
-                <div class="slider__author-photo">
-                  <img src="../img/slider/photo-2.jpg" alt="Мария Николаева" />
-                </div>
-                <div class="slider__author-content">
-                  <div class="slider__author-name">Мария Николаева</div>
-                  <div class="slider__author-position">
-                    Директор по маркетингу и PR, USETECH
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="slider__navigation">
-              <div class="slider__progress">
-                <div id="main-slider-scrollbar"></div>
-              </div>
-              <div class="slider__nav-buttons">
-                <div
-                  class="slider__nav-button slider__nav-button--left"
-                  id="main-slider-arrow-left"
-                >
-                  <svg>
-                    <use
-                      xlink:href="./img/sprite-icons.svg#arrow-circle-right"
-                    ></use>
-                  </svg>
-                </div>
-                <div
-                  class="slider__nav-button slider__nav-button--right"
-                  id="main-slider-arrow-right"
-                >
-                  <svg>
-                    <use
-                      xlink:href="./img/sprite-icons.svg#arrow-circle-right"
-                    ></use>
-                  </svg>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-      </main>
-      <!-- footer -->
-      <footer id="sectionFooter" class="section section--footer footer">
-  <div class="container">
-    <div class="row footer__row">
-      <div class="col-xxl-5 col-xl-4 col-lg-4 col-sm-12">
-        <a href="#sectionMain" class="footer__logo scroll-to">
-          <svg>
-            <use xlink:href="./img/sprite.svg#logo"></use>
-          </svg>
-        </a>
-        <ul class="footer__social">
-          <li class="footer__social-item">
-            <a href="https://t.me/teal_hr" class="footer__social-link">
-              <svg>
-                <use xlink:href="./img/sprite-icons.svg#TelegramLogo"></use>
-              </svg>
+              <div class="nav__text">Главная страница</div>
             </a>
           </li>
-          <li class="footer__social-item">
-            <a href="https://vk.com/tealhr" class="footer__social-link">
-              <svg>
-                <use xlink:href="./img/sprite-icons.svg#VkLogo"></use>
-              </svg>
+          <li class="nav__item">
+            <a href="/address-book.html" class="nav__link nav__link--active">
+              <div class="nav__icon">
+                <svg>
+                  <use xlink:href="./img/sprite.svg#UserCircle"></use>
+                </svg>
+              </div>
+              <div class="nav__text">Адресная книга</div>
             </a>
           </li>
-          <li class="footer__social-item">
-            <a href="https://dzen.ru/tealhr" class="footer__social-link">
-              <svg>
-                <use xlink:href="./img/sprite-icons.svg#dzen_white"></use>
-              </svg>
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              <div class="nav__icon">
+                <svg>
+                  <use xlink:href="./img/sprite.svg#FileText"></use>
+                </svg>
+              </div>
+              <div class="nav__text">Документы</div>
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              <div class="nav__icon">
+                <svg>
+                  <use xlink:href="./img/sprite.svg#NewspaperClipping"></use>
+                </svg>
+              </div>
+              <div class="nav__text">Новости</div>
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              <div class="nav__icon">
+                <svg>
+                  <use xlink:href="./img/sprite.svg#PresentationChart"></use>
+                </svg>
+              </div>
+              <div class="nav__text">Университет</div>
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              <div class="nav__icon">
+                <svg>
+                  <use xlink:href="./img/sprite.svg#Bookmarks"></use>
+                </svg>
+              </div>
+              <div class="nav__text">Библиотека</div>
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              <div class="nav__icon">
+                <svg>
+                  <use xlink:href="./img/sprite.svg#RocketLaunch"></use>
+                </svg>
+              </div>
+              <div class="nav__text">Инкубатор</div>
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              <div class="nav__icon">
+                <svg>
+                  <use xlink:href="./img/sprite.svg#Translate"></use>
+                </svg>
+              </div>
+              <div class="nav__text">English Club</div>
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              <div class="nav__icon">
+                <svg>
+                  <use xlink:href="./img/sprite.svg#Megaphone"></use>
+                </svg>
+              </div>
+              <div class="nav__text">Рефералка</div>
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              <div class="nav__icon">
+                <svg>
+                  <use xlink:href="./img/sprite.svg#Gift"></use>
+                </svg>
+              </div>
+              <div class="nav__text">Магазин</div>
             </a>
           </li>
         </ul>
-      </div>
-      <div class="col-xxl-7 col-xl-8 col-lg-8 col-sm-12">
-        <div class="text text--mb-16">+7 (495) 660-50-48</div>
-        <div class="text text--mb-16">
-          <a href="mailto:kmorozov@usetech.ru">kmorozov@usetech.ru</a>
-        </div>
-        <div class="text">
-          Москва, Кожевническая ул., 10с1, БЦ “Спутник”, 7 этаж
-        </div>
-      </div>
+      </nav>
     </div>
-
-    <div class="row footer__row-reverse">
-      <div class="col-xxl-5 col-xl-4 col-lg-4 col-sm-12">
-        <div class="footer__copyright">Copyright © Teal HR 2006-2022</div>
-      </div>
-      <div class="col-xxl-7 col-xl-8 col-lg-8 col-sm-12">
-        <div class="row">
-          <div class="col-12 col-lg-auto footer__col-link">
-            <div class="text">
-              <a
-                href="https://docs.google.com/document/d/1c57u5QcYrqG8P0Gbz7ojqFMlaIHA6Ww5XgosIEilrEo/edit"
-                >Лицензионный договор-оферта</a
-              >
+    <div class="aside__footer">
+      <div class="social">
+        <ul class="social__list">
+          <li class="social__item">
+            <a href="#" class="social__link">
+              <svg>
+                <use xlink:href="./img/sprite.svg#telegram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="#" class="social__link">
+              <svg>
+                <use xlink:href="./img/sprite.svg#discord"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="#" class="social__link">
+              <svg>
+                <use xlink:href="./img/sprite.svg#vk"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="#" class="social__link">
+              <svg>
+                <use xlink:href="./img/sprite.svg#habr"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social__item social__item--drop-menu">
+            <a href="#" class="social__link">
+              <svg>
+                <use xlink:href="./img/sprite.svg#DotsThree"></use>
+              </svg>
+            </a>
+            <div class="social__popover">
+              <ul class="social__list">
+                <li class="social__item">
+                  <a href="#" class="social__link">
+                    <svg>
+                      <use xlink:href="./img/sprite.svg#TwitterLogo"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a href="#" class="social__link">
+                    <svg>
+                      <use xlink:href="./img/sprite.svg#FacebookLogo"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a href="#" class="social__link">
+                    <svg>
+                      <use xlink:href="./img/sprite.svg#LinkedinLogo"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a href="#" class="social__link">
+                    <svg>
+                      <use xlink:href="./img/sprite.svg#InstagramLogo"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
             </div>
-          </div>
-          <div class="col-12 col-lg-auto footer__col-link">
-            <div class="text">
-              <a
-                href="https://docs.google.com/document/d/1qazbwAJ_N7yxbJtfIjVdJKsuTVMbGglm/edit"
-                >Пользовательское соглашение</a
-              >
-            </div>
-          </div>
-          <div class="col-12 col-lg-auto footer__col-link">
-            <div class="text">
-              <a
-                href="https://docs.google.com/document/d/1eNyl5Hf2CB9EvJINU-HwrtDtswZn8DCNHbaHycig6nM/edit"
-                >Политика конфиденциальности</a
-              >
-            </div>
-          </div>
+          </li>
+        </ul>
+        <div class="social__aside">
+          <a href="#" class="social__link">
+            <svg>
+              <use xlink:href="./img/sprite.svg#hero"></use>
+            </svg>
+          </a>
         </div>
+      </div>
+      <div class="copyright">
+        2006 - 2022,<br />&copy; Юзтех Профешнл, Юзтех РТК
       </div>
     </div>
   </div>
-</footer>
+</aside>
 
+        <main class="main">
+          <div class="main__content">
+            <div class="main-slider">
+  <ul class="main-slider__list" id="main-slider">
+    <li class="main-slider__item">
+      <div class="main-slider__content">
+        <div class="main-slider__title">
+          Подписывайтесь<br />
+          на блог <span>Usetech</span>
+        </div>
+        <div class="main-slider__text">
+          Читайте лучшие статьи от экспертов компании на habr.com
+        </div>
+      </div>
+      <div class="main-slider__img">
+        <img src="./img/slider/illustration.svg" alt="illustration" />
+      </div>
+    </li>
+    <li class="main-slider__item">
+      <div class="main-slider__content">
+        <div class="main-slider__title">
+          Подписывайтесь<br />
+          на блог <span>Usetech</span>
+        </div>
+        <div class="main-slider__text">
+          Читайте лучшие статьи от экспертов компании на habr.com
+        </div>
+      </div>
+      <div class="main-slider__img">
+        <img src="./img/slider/illustration.svg" alt="illustration" />
+      </div>
+    </li>
+  </ul>
+  <div class="main-slider__navigation">
+    <a href="#" class="main-slider__arrow" id="prew-arrow">
+      <svg>
+        <use xlink:href="./img/sprite.svg#CaretLeft"></use>
+      </svg>
+    </a>
+    <div class="main-slider__dots"></div>
+    <a href="#" class="main-slider__arrow" id="next-arrow">
+      <svg>
+        <use xlink:href="./img/sprite.svg#CaretRight"></use>
+      </svg>
+    </a>
+  </div>
+</div>
+
+            <div class="subtitle-block">
+              <h2 class="subtitle-block__title">Последние новости</h2>
+              <a href="#" class="subtitle-block__button">Читать все новости</a>
+            </div>
+            <ul class="cards">
+  <li class="cards__item card">
+    <div class="card__content">
+      <div class="card__img">
+        <img src="./img/stubs/01.jpg" alt="img" />
+      </div>
+      <a href="#" class="card__title">Дайджест</a>
+      <a href="#" class="card__text"> Рассказываем. </a>
+    </div>
+    <div class="card__footer">
+      <div class="card__category category">
+        <div class="category__title">
+          <div class="category__icon">
+            <img src="./img/category/category-1.svg" alt="Общее" />
+          </div>
+          Общие
+        </div>
+        <div class="category__date">10 января 2022</div>
+      </div>
+
+      <ul class="card__tags tags">
+        <li class="tags__item">
+          <a href="#" class="tags__link">#Python</a>
+        </li>
+        <li class="tags__item">
+          <a href="#" class="tags__link">#Книги</a>
+        </li>
+        <li class="tags__item">
+          <a href="#" class="tags__link">#программирование</a>
+        </li>
+      </ul>
+    </div>
+  </li>
+
+  <li class="cards__item card">
+    <div class="card__content">
+      <div class="card__img">
+        <img src="./img/stubs/01.jpg" alt="img" />
+      </div>
+      <a href="#" class="card__title">Достижения продуктовой команды UseBus</a>
+      <a href="#" class="card__text"
+        >Делимся достижениями продуктовой команды UseBus.</a
+      >
+    </div>
+    <div class="card__footer">
+      <div class="card__category category">
+        <div class="category__title">
+          <div class="category__icon">
+            <img src="./img/category/category-2.svg" alt="Общее" />
+          </div>
+          Проектные
+        </div>
+        <div class="category__date">10 января 2022</div>
+      </div>
+
+      <ul class="card__tags tags">
+        <li class="tags__item">
+          <a href="#" class="tags__link">#Python</a>
+        </li>
+        <li class="tags__item">
+          <a href="#" class="tags__link">#Книги</a>
+        </li>
+        <li class="tags__item">
+          <a href="#" class="tags__link">#программирование</a>
+        </li>
+      </ul>
+    </div>
+  </li>
+
+  <li class="cards__item card">
+    <div class="card__content">
+      <div class="card__img">
+        <img src="./img/stubs/01.jpg" alt="img" />
+      </div>
+      <a href="#" class="card__title"
+        >Дайджест внешних профильных мероприятий Дайджест внешних профильных
+        мероприятий</a
+      >
+      <a href="#" class="card__text">
+        Рассказываем про книгу от Мстистава Казакова про создание компьютерных
+        систем. Рассказываем про книгу от Мстистава Казакова про создание
+        компьютерных систем. Рассказываем про книгу от Мстистава Казакова про
+        создание компьютерных систем. Рассказываем про книгу от Мстистава
+        Казакова про создание компьютерных систем.
+      </a>
+    </div>
+    <div class="card__footer">
+      <div class="card__category category">
+        <div class="category__title">
+          <div class="category__icon">
+            <img src="./img/category/category-3.svg" alt="Общее" />
+          </div>
+          Университет
+        </div>
+        <div class="category__date">10 января 2022</div>
+      </div>
+
+      <ul class="card__tags tags">
+        <li class="tags__item">
+          <a href="#" class="tags__link">#Python</a>
+        </li>
+        <li class="tags__item">
+          <a href="#" class="tags__link">#Книги</a>
+        </li>
+        <li class="tags__item">
+          <a href="#" class="tags__link">#программирование</a>
+        </li>
+      </ul>
+    </div>
+  </li>
+
+  <li class="cards__item card">
+    <div class="card__content">
+      <div class="card__img">
+        <img src="./img/stubs/01.jpg" alt="img" />
+      </div>
+      <a href="#" class="card__title"
+        >Дайджест внешних профильных мероприятий</a
+      >
+      <a href="#" class="card__text">
+        Рассказываем про книгу от Мстистава Казакова про создание компьютерных
+        систем.
+      </a>
+    </div>
+    <div class="card__footer">
+      <div class="card__category category">
+        <div class="category__title">
+          <div class="category__icon">
+            <img src="./img/category/category-4.svg" alt="Общее" />
+          </div>
+          Скидки
+        </div>
+        <div class="category__date">10 января 2022</div>
+      </div>
+
+      <ul class="card__tags tags">
+        <li class="tags__item">
+          <a href="#" class="tags__link">#Python</a>
+        </li>
+        <li class="tags__item">
+          <a href="#" class="tags__link">#Книги</a>
+        </li>
+        <li class="tags__item">
+          <a href="#" class="tags__link">#программирование</a>
+        </li>
+      </ul>
+    </div>
+  </li>
+</ul>
+
+          </div>
+          <div class="main__aside"><div class="card-aside">
+  <div class="card-aside__title">Добро пожаловать</div>
+  <div class="card-aside__content">
+    <ul class="employee-list">
+      <li class="employee-list__item employee">
+        <div class="employee__photo">
+          <img src="./img/stubs/Frame 416.jpg" alt="employee photo" />
+        </div>
+        <div class="employee__content">
+          <div class="employee__name">
+            <span>Константин Константинопольский</span>
+          </div>
+          <div class="employee__position">
+            <span>Ведущий разработчик</span>
+          </div>
+        </div>
+      </li>
+      <li class="employee-list__item employee">
+        <div class="employee__photo">
+          <img src="./img/stubs/Frame 416.jpg" alt="employee photo" />
+        </div>
+        <div class="employee__content">
+          <div class="employee__name">
+            <span>Константин Константинопольский</span>
+          </div>
+          <div class="employee__position">
+            <span>Ведущий разработчик</span>
+          </div>
+        </div>
+      </li>
+      <li class="employee-list__item employee">
+        <div class="employee__photo">
+          <img src="./img/stubs/Frame 416.jpg" alt="employee photo" />
+        </div>
+        <div class="employee__content">
+          <div class="employee__name">
+            <span>Константин Константинопольский</span>
+          </div>
+          <div class="employee__position">
+            <span>Ведущий разработчик</span>
+          </div>
+        </div>
+      </li>
+      <li class="employee-list__item employee">
+        <div class="employee__photo">
+          <img src="./img/stubs/Frame 416.jpg" alt="employee photo" />
+        </div>
+        <div class="employee__content">
+          <div class="employee__name">
+            <span>Константин Константинопольский</span>
+          </div>
+          <div class="employee__position">
+            <span>Ведущий разработчик</span>
+          </div>
+        </div>
+      </li>
+
+      <li class="employee-list__item employee">
+        <div class="employee__photo">
+          <img src="./img/stubs/Frame 416.jpg" alt="employee photo" />
+        </div>
+        <div class="employee__content">
+          <div class="employee__name">
+            <span>Константин Константинопольский</span>
+          </div>
+          <div class="employee__position">
+            <span>Ведущий разработчик</span>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="card-aside__footer">
+    <button class="button button--wide button--secondary">
+      Все новые сотрудники
+    </button>
+  </div>
+</div>
+
+<div class="card-aside">
+  <div class="card-aside__title">Дни рождения сегодня</div>
+  <div class="card-aside__content">
+    <ul class="employee-list">
+      <li class="employee-list__item employee">
+        <div class="employee__photo">
+          <img src="./img/icons/birthday-image.jpg" alt="employee photo" />
+        </div>
+        <div class="employee__content">
+          <div class="employee__name">
+            <span>Сегодня именинников нет</span>
+          </div>
+          <div class="employee__position">
+            <span>Приходите завтра ¯\_(ツ)_/¯</span>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="card-aside">
+  <div class="card-aside__title">Документы</div>
+  <div class="card-aside__content card-aside__content--padding-0">
+    <ul class="list-doocuments">
+      <li class="list-doocuments__item">
+        <a
+          href="#"
+          class="list-doocuments__link doocument-link doocument-link--active"
+        >
+          <div class="doocument-link__icon">
+            <svg>
+              <use xlink:href="./img/sprite.svg#folder"></use>
+            </svg>
+          </div>
+          Памятки
+        </a>
+      </li>
+      <li class="list-doocuments__item">
+        <a href="#" class="list-doocuments__link doocument-link">
+          <div class="doocument-link__icon">
+            <svg>
+              <use xlink:href="./img/sprite.svg#folder"></use>
+            </svg>
+          </div>
+          Шаблоны заявлений
+        </a>
+      </li>
+      <li class="list-doocuments__item">
+        <a href="#" class="list-doocuments__link doocument-link">
+          <div class="doocument-link__icon">
+            <svg>
+              <use xlink:href="./img/sprite.svg#folder"></use>
+            </svg>
+          </div>
+          Redmine
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="card-aside__footer">
+    <button class="button button--wide button--secondary">Все документы</button>
+  </div>
+</div>
+
+<div class="card-aside">
+  <div class="card-aside__title">Фото дня</div>
+  <div class="card-aside__content">
+    <div class="card-aside__main-photo">
+      <img src="./img/stubs/image 22.jpg" alt="Главное фото" />
+    </div>
+  </div>
+  <div class="card-aside__footer">
+    <button class="button button--wide button--secondary">
+      Все фотографии
+    </button>
+  </div>
+</div>
+</div>
+        </main>
+      </div>
+      <button class="aside-menu-button" id="aside-menu-button">
+        <svg>
+          <use xlink:href="./img/sprite.svg#TextAlignRight"></use>
+        </svg>
+      </button>
+      <ul class="nav-mobile">
+  <li class="nav-mobile__item nav-mobile__item--active">
+    <a href="#" class="nav-mobile__link">
+      <div class="nav-mobile__icon">
+        <svg>
+          <use xlink:href="./img/sprite.svg#HouseSimple"></use>
+        </svg>
+      </div>
+      Главная
+    </a>
+  </li>
+  <li class="nav-mobile__item">
+    <a href="#" class="nav-mobile__link">
+      <div class="nav-mobile__icon">
+        <svg>
+          <use xlink:href="./img/sprite.svg#UserCircle"></use>
+        </svg>
+      </div>
+      Контакты
+    </a>
+  </li>
+  <li class="nav-mobile__item">
+    <a href="#" class="nav-mobile__link">
+      <div class="nav-mobile__icon">
+        <svg>
+          <use xlink:href="./img/sprite.svg#NewspaperClipping"></use>
+        </svg>
+      </div>
+      Новости
+    </a>
+  </li>
+  <li class="nav-mobile__item">
+    <a href="#" class="nav-mobile__link">
+      <div class="nav-mobile__icon">
+        <svg>
+          <use xlink:href="./img/sprite.svg#PresentationChart"></use>
+        </svg>
+      </div>
+      Универ
+    </a>
+  </li>
+  <li class="nav-mobile__item">
+    <a href="#" class="nav-mobile__link">
+      <div class="nav-mobile__icon">
+        <svg>
+          <use xlink:href="./img/sprite.svg#SquaresFour"></use>
+        </svg>
+      </div>
+      Сервисы
+    </a>
+  </li>
+</ul>
+
+
+      <!-- footer -->
+      
     </div>
 
     <script src="./js/script.min.js"></script>
