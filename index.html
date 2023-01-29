@@ -1,664 +1,109 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>USETECH</title>
+    <title>Тестовое задание</title>
     <link rel="stylesheet" href="./css/main.min.css" />
-    <meta name="description" content="USETECH" />
-    <!-- Yandex.Metrika counter -->
   </head>
-  <body id="body">
+  <body>
     <div class="wrapper">
       <header class="header">
-  <div class="container header__container">
-    <a href="#" class="header__logo">
-      <img src="../img/logo.svg" alt="logo" />
-    </a>
-    <ul class="header__nav">
-      <li class="header__nav-item">
-        <a href="" class="header__nav-link">Структура компании</a>
-      </li>
-      <li class="header__nav-item">
-        <a href="" class="header__nav-link">Косты</a>
-      </li>
-    </ul>
-    <div class="header__aside">
-      <div class="header__user">
-        <button class="header__close-button" id="close-button"></button>
-        <div class="header__user-photo">
-          <img src="../img/stubs/Rectangle.jpg" alt="user photo" />
-        </div>
-        <div class="header__user-info">
-          <div class="header__user-name">Шевцов Евгений Иванович</div>
-          <div class="header__user-position">Руководитель UX-направления</div>
-        </div>
-      </div>
+  <div class="header__logo">
+    <svg>
+      <use xlink:href="./img/sprite.svg#logo-cyr"></use>
+    </svg>
+  </div>
+  <div class="header__aside">
+    <nav class="header__nav nav">
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a href="#" class="nav__link">Тарифы</a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">Как внедрить</a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">Блог</a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">Карьера</a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">API</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="buttons">
+      <button class="buttons__button button button--main">
+        Заказать презентацию
+      </button>
+      <button class="buttons__button button button--secondary">Войти</button>
     </div>
+  </div>
+  <div class="header__mobile-menu">
+    <a href="#" class="mobile-menu"></a>
   </div>
 </header>
 
-
-      <div class="container container--main">
-        <aside class="aside">
-  <div class="aside__wrapper">
-    <div class="aside__content">
-      <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__item">
-            <a href="/" class="nav__link">
-              <div class="nav__icon">
-                <svg>
-                  <use xlink:href="./img/sprite.svg#HouseSimple"></use>
-                </svg>
+      <main class="main">
+        <section class="section section--title">
+          <div class="container">
+            <div class="title-block">
+              <div class="title-block__content">
+                <div class="title-block__tags">
+                  <ul class="tags">
+                    <li
+                      class="tags__item tags__item--select"
+                      data-text="Кейс"
+                    ></li>
+                    <li class="tags__item" data-text="IT"></li>
+                    <li class="tags__item" data-text="Медиа"></li>
+                    <li class="tags__item" data-text="SaaS"></li>
+                  </ul>
+                </div>
+                <h1 class="title-block__title title">
+                  Очень длинный заголовок в несколько строк чтобы было видно как
+                  надо его сверстать
+                </h1>
+                <h3 class="title-block__sub-title sub-title">
+                  Описание тоже может быть в несколько строчек и надо это учесть
+                </h3>
               </div>
-              <div class="nav__text">Главная страница</div>
-            </a>
-          </li>
-          <li class="nav__item">
-            <a href="/address-book.html" class="nav__link nav__link--active">
-              <div class="nav__icon">
-                <svg>
-                  <use xlink:href="./img/sprite.svg#UserCircle"></use>
-                </svg>
+              <div class="title-block__image">
+                <img src="./img/main-image.svg" alt="Главная картинка" />
               </div>
-              <div class="nav__text">Адресная книга</div>
-            </a>
-          </li>
-          <li class="nav__item">
-            <a href="#" class="nav__link">
-              <div class="nav__icon">
-                <svg>
-                  <use xlink:href="./img/sprite.svg#FileText"></use>
-                </svg>
+              <div class="title-block__statistics statistics">
+                <div class="statistics__logo">лого</div>
+                <ul class="statistics__list">
+                  <li class="statistics__item">
+                    <div class="statistics__count">3</div>
+                    <div class="statistics__text">рекрутера</div>
+                  </li>
+                  <li class="statistics__item">
+                    <div class="statistics__count">15</div>
+                    <div class="statistics__text">Вакансий в месяц</div>
+                  </li>
+                  <li class="statistics__item">
+                    <div class="statistics__count">200</div>
+                    <div class="statistics__text">cотрудников</div>
+                  </li>
+                </ul>
               </div>
-              <div class="nav__text">Документы</div>
-            </a>
-          </li>
-          <li class="nav__item">
-            <a href="#" class="nav__link">
-              <div class="nav__icon">
-                <svg>
-                  <use xlink:href="./img/sprite.svg#NewspaperClipping"></use>
-                </svg>
-              </div>
-              <div class="nav__text">Новости</div>
-            </a>
-          </li>
-          <li class="nav__item">
-            <a href="#" class="nav__link">
-              <div class="nav__icon">
-                <svg>
-                  <use xlink:href="./img/sprite.svg#PresentationChart"></use>
-                </svg>
-              </div>
-              <div class="nav__text">Университет</div>
-            </a>
-          </li>
-          <li class="nav__item">
-            <a href="#" class="nav__link">
-              <div class="nav__icon">
-                <svg>
-                  <use xlink:href="./img/sprite.svg#Bookmarks"></use>
-                </svg>
-              </div>
-              <div class="nav__text">Библиотека</div>
-            </a>
-          </li>
-          <li class="nav__item">
-            <a href="#" class="nav__link">
-              <div class="nav__icon">
-                <svg>
-                  <use xlink:href="./img/sprite.svg#RocketLaunch"></use>
-                </svg>
-              </div>
-              <div class="nav__text">Инкубатор</div>
-            </a>
-          </li>
-          <li class="nav__item">
-            <a href="#" class="nav__link">
-              <div class="nav__icon">
-                <svg>
-                  <use xlink:href="./img/sprite.svg#Translate"></use>
-                </svg>
-              </div>
-              <div class="nav__text">English Club</div>
-            </a>
-          </li>
-          <li class="nav__item">
-            <a href="#" class="nav__link">
-              <div class="nav__icon">
-                <svg>
-                  <use xlink:href="./img/sprite.svg#Megaphone"></use>
-                </svg>
-              </div>
-              <div class="nav__text">Рефералка</div>
-            </a>
-          </li>
-          <li class="nav__item">
-            <a href="#" class="nav__link">
-              <div class="nav__icon">
-                <svg>
-                  <use xlink:href="./img/sprite.svg#Gift"></use>
-                </svg>
-              </div>
-              <div class="nav__text">Магазин</div>
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-    <div class="aside__footer">
-      <div class="social">
-        <ul class="social__list">
-          <li class="social__item">
-            <a href="#" class="social__link">
-              <svg>
-                <use xlink:href="./img/sprite.svg#telegram"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="social__item">
-            <a href="#" class="social__link">
-              <svg>
-                <use xlink:href="./img/sprite.svg#discord"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="social__item">
-            <a href="#" class="social__link">
-              <svg>
-                <use xlink:href="./img/sprite.svg#vk"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="social__item">
-            <a href="#" class="social__link">
-              <svg>
-                <use xlink:href="./img/sprite.svg#habr"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="social__item social__item--drop-menu">
-            <a href="#" class="social__link">
-              <svg>
-                <use xlink:href="./img/sprite.svg#DotsThree"></use>
-              </svg>
-            </a>
-            <div class="social__popover">
-              <ul class="social__list">
-                <li class="social__item">
-                  <a href="#" class="social__link">
-                    <svg>
-                      <use xlink:href="./img/sprite.svg#TwitterLogo"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social__item">
-                  <a href="#" class="social__link">
-                    <svg>
-                      <use xlink:href="./img/sprite.svg#FacebookLogo"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social__item">
-                  <a href="#" class="social__link">
-                    <svg>
-                      <use xlink:href="./img/sprite.svg#LinkedinLogo"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social__item">
-                  <a href="#" class="social__link">
-                    <svg>
-                      <use xlink:href="./img/sprite.svg#InstagramLogo"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
             </div>
-          </li>
-        </ul>
-        <div class="social__aside">
-          <a href="#" class="social__link">
-            <svg>
-              <use xlink:href="./img/sprite.svg#hero"></use>
-            </svg>
-          </a>
-        </div>
-      </div>
-      <div class="copyright">
-        2006 - 2022,<br />&copy; Юзтех Профешнл, Юзтех РТК
-      </div>
-    </div>
-  </div>
-</aside>
-
-        <main class="main">
-          <div class="main__content">
-            <div class="main-slider">
-  <ul class="main-slider__list" id="main-slider">
-    <li class="main-slider__item">
-      <div class="main-slider__content">
-        <div class="main-slider__title">
-          Подписывайтесь<br />
-          на блог <span>Usetech</span>
-        </div>
-        <div class="main-slider__text">
-          Читайте лучшие статьи от экспертов компании на habr.com
-        </div>
-      </div>
-      <div class="main-slider__img">
-        <img src="./img/slider/illustration.svg" alt="illustration" />
-      </div>
-    </li>
-    <li class="main-slider__item">
-      <div class="main-slider__content">
-        <div class="main-slider__title">
-          Подписывайтесь<br />
-          на блог <span>Usetech</span>
-        </div>
-        <div class="main-slider__text">
-          Читайте лучшие статьи от экспертов компании на habr.com
-        </div>
-      </div>
-      <div class="main-slider__img">
-        <img src="./img/slider/illustration.svg" alt="illustration" />
-      </div>
-    </li>
-  </ul>
-  <div class="main-slider__navigation">
-    <a href="#" class="main-slider__arrow" id="prew-arrow">
-      <svg>
-        <use xlink:href="./img/sprite.svg#CaretLeft"></use>
-      </svg>
-    </a>
-    <div class="main-slider__dots"></div>
-    <a href="#" class="main-slider__arrow" id="next-arrow">
-      <svg>
-        <use xlink:href="./img/sprite.svg#CaretRight"></use>
-      </svg>
-    </a>
-  </div>
-</div>
-
-            <div class="subtitle-block">
-              <h2 class="subtitle-block__title">Последние новости</h2>
-              <a href="#" class="subtitle-block__button">Читать все новости</a>
+          </div>
+        </section>
+        <section class="section section--some">
+          <div class="container">
+            <div class="some-block">
+              <div class="text">
+                Какой-то контент, про который надо знать, что он есть
+              </div>
             </div>
-            <ul class="cards">
-  <li class="cards__item card">
-    <div class="card__content">
-      <div class="card__img">
-        <img src="./img/stubs/01.jpg" alt="img" />
-      </div>
-      <a href="#" class="card__title">Дайджест</a>
-      <a href="#" class="card__text"> Рассказываем. </a>
-    </div>
-    <div class="card__footer">
-      <div class="card__category category">
-        <div class="category__title">
-          <div class="category__icon">
-            <img src="./img/category/category-1.svg" alt="Общее" />
           </div>
-          Общие
-        </div>
-        <div class="category__date">10 января 2022</div>
-      </div>
-
-      <ul class="card__tags tags">
-        <li class="tags__item">
-          <a href="#" class="tags__link">#Python</a>
-        </li>
-        <li class="tags__item">
-          <a href="#" class="tags__link">#Книги</a>
-        </li>
-        <li class="tags__item">
-          <a href="#" class="tags__link">#программирование</a>
-        </li>
-      </ul>
-    </div>
-  </li>
-
-  <li class="cards__item card">
-    <div class="card__content">
-      <div class="card__img">
-        <img src="./img/stubs/01.jpg" alt="img" />
-      </div>
-      <a href="#" class="card__title">Достижения продуктовой команды UseBus</a>
-      <a href="#" class="card__text"
-        >Делимся достижениями продуктовой команды UseBus.</a
-      >
-    </div>
-    <div class="card__footer">
-      <div class="card__category category">
-        <div class="category__title">
-          <div class="category__icon">
-            <img src="./img/category/category-2.svg" alt="Общее" />
-          </div>
-          Проектные
-        </div>
-        <div class="category__date">10 января 2022</div>
-      </div>
-
-      <ul class="card__tags tags">
-        <li class="tags__item">
-          <a href="#" class="tags__link">#Python</a>
-        </li>
-        <li class="tags__item">
-          <a href="#" class="tags__link">#Книги</a>
-        </li>
-        <li class="tags__item">
-          <a href="#" class="tags__link">#программирование</a>
-        </li>
-      </ul>
-    </div>
-  </li>
-
-  <li class="cards__item card">
-    <div class="card__content">
-      <div class="card__img">
-        <img src="./img/stubs/01.jpg" alt="img" />
-      </div>
-      <a href="#" class="card__title"
-        >Дайджест внешних профильных мероприятий Дайджест внешних профильных
-        мероприятий</a
-      >
-      <a href="#" class="card__text">
-        Рассказываем про книгу от Мстистава Казакова про создание компьютерных
-        систем. Рассказываем про книгу от Мстистава Казакова про создание
-        компьютерных систем. Рассказываем про книгу от Мстистава Казакова про
-        создание компьютерных систем. Рассказываем про книгу от Мстистава
-        Казакова про создание компьютерных систем.
-      </a>
-    </div>
-    <div class="card__footer">
-      <div class="card__category category">
-        <div class="category__title">
-          <div class="category__icon">
-            <img src="./img/category/category-3.svg" alt="Общее" />
-          </div>
-          Университет
-        </div>
-        <div class="category__date">10 января 2022</div>
-      </div>
-
-      <ul class="card__tags tags">
-        <li class="tags__item">
-          <a href="#" class="tags__link">#Python</a>
-        </li>
-        <li class="tags__item">
-          <a href="#" class="tags__link">#Книги</a>
-        </li>
-        <li class="tags__item">
-          <a href="#" class="tags__link">#программирование</a>
-        </li>
-      </ul>
-    </div>
-  </li>
-
-  <li class="cards__item card">
-    <div class="card__content">
-      <div class="card__img">
-        <img src="./img/stubs/01.jpg" alt="img" />
-      </div>
-      <a href="#" class="card__title"
-        >Дайджест внешних профильных мероприятий</a
-      >
-      <a href="#" class="card__text">
-        Рассказываем про книгу от Мстистава Казакова про создание компьютерных
-        систем.
-      </a>
-    </div>
-    <div class="card__footer">
-      <div class="card__category category">
-        <div class="category__title">
-          <div class="category__icon">
-            <img src="./img/category/category-4.svg" alt="Общее" />
-          </div>
-          Скидки
-        </div>
-        <div class="category__date">10 января 2022</div>
-      </div>
-
-      <ul class="card__tags tags">
-        <li class="tags__item">
-          <a href="#" class="tags__link">#Python</a>
-        </li>
-        <li class="tags__item">
-          <a href="#" class="tags__link">#Книги</a>
-        </li>
-        <li class="tags__item">
-          <a href="#" class="tags__link">#программирование</a>
-        </li>
-      </ul>
-    </div>
-  </li>
-</ul>
-
-          </div>
-          <div class="main__aside"><div class="card-aside">
-  <div class="card-aside__title">Добро пожаловать</div>
-  <div class="card-aside__content">
-    <ul class="employee-list">
-      <li class="employee-list__item employee">
-        <div class="employee__photo">
-          <img src="./img/stubs/Frame 416.jpg" alt="employee photo" />
-        </div>
-        <div class="employee__content">
-          <div class="employee__name">
-            <span>Константин Константинопольский</span>
-          </div>
-          <div class="employee__position">
-            <span>Ведущий разработчик</span>
-          </div>
-        </div>
-      </li>
-      <li class="employee-list__item employee">
-        <div class="employee__photo">
-          <img src="./img/stubs/Frame 416.jpg" alt="employee photo" />
-        </div>
-        <div class="employee__content">
-          <div class="employee__name">
-            <span>Константин Константинопольский</span>
-          </div>
-          <div class="employee__position">
-            <span>Ведущий разработчик</span>
-          </div>
-        </div>
-      </li>
-      <li class="employee-list__item employee">
-        <div class="employee__photo">
-          <img src="./img/stubs/Frame 416.jpg" alt="employee photo" />
-        </div>
-        <div class="employee__content">
-          <div class="employee__name">
-            <span>Константин Константинопольский</span>
-          </div>
-          <div class="employee__position">
-            <span>Ведущий разработчик</span>
-          </div>
-        </div>
-      </li>
-      <li class="employee-list__item employee">
-        <div class="employee__photo">
-          <img src="./img/stubs/Frame 416.jpg" alt="employee photo" />
-        </div>
-        <div class="employee__content">
-          <div class="employee__name">
-            <span>Константин Константинопольский</span>
-          </div>
-          <div class="employee__position">
-            <span>Ведущий разработчик</span>
-          </div>
-        </div>
-      </li>
-
-      <li class="employee-list__item employee">
-        <div class="employee__photo">
-          <img src="./img/stubs/Frame 416.jpg" alt="employee photo" />
-        </div>
-        <div class="employee__content">
-          <div class="employee__name">
-            <span>Константин Константинопольский</span>
-          </div>
-          <div class="employee__position">
-            <span>Ведущий разработчик</span>
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-  <div class="card-aside__footer">
-    <button class="button button--wide button--secondary">
-      Все новые сотрудники
-    </button>
-  </div>
-</div>
-
-<div class="card-aside">
-  <div class="card-aside__title">Дни рождения сегодня</div>
-  <div class="card-aside__content">
-    <ul class="employee-list">
-      <li class="employee-list__item employee">
-        <div class="employee__photo">
-          <img src="./img/icons/birthday-image.jpg" alt="employee photo" />
-        </div>
-        <div class="employee__content">
-          <div class="employee__name">
-            <span>Сегодня именинников нет</span>
-          </div>
-          <div class="employee__position">
-            <span>Приходите завтра ¯\_(ツ)_/¯</span>
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
-
-<div class="card-aside">
-  <div class="card-aside__title">Документы</div>
-  <div class="card-aside__content card-aside__content--padding-0">
-    <ul class="list-doocuments">
-      <li class="list-doocuments__item">
-        <a
-          href="#"
-          class="list-doocuments__link doocument-link doocument-link--active"
-        >
-          <div class="doocument-link__icon">
-            <svg>
-              <use xlink:href="./img/sprite.svg#folder"></use>
-            </svg>
-          </div>
-          Памятки
-        </a>
-      </li>
-      <li class="list-doocuments__item">
-        <a href="#" class="list-doocuments__link doocument-link">
-          <div class="doocument-link__icon">
-            <svg>
-              <use xlink:href="./img/sprite.svg#folder"></use>
-            </svg>
-          </div>
-          Шаблоны заявлений
-        </a>
-      </li>
-      <li class="list-doocuments__item">
-        <a href="#" class="list-doocuments__link doocument-link">
-          <div class="doocument-link__icon">
-            <svg>
-              <use xlink:href="./img/sprite.svg#folder"></use>
-            </svg>
-          </div>
-          Redmine
-        </a>
-      </li>
-    </ul>
-  </div>
-  <div class="card-aside__footer">
-    <button class="button button--wide button--secondary">Все документы</button>
-  </div>
-</div>
-
-<div class="card-aside">
-  <div class="card-aside__title">Фото дня</div>
-  <div class="card-aside__content">
-    <div class="card-aside__main-photo">
-      <img src="./img/stubs/image 22.jpg" alt="Главное фото" />
-    </div>
-  </div>
-  <div class="card-aside__footer">
-    <button class="button button--wide button--secondary">
-      Все фотографии
-    </button>
-  </div>
-</div>
-</div>
-        </main>
-      </div>
-      <button class="aside-menu-button" id="aside-menu-button">
-        <svg>
-          <use xlink:href="./img/sprite.svg#TextAlignRight"></use>
-        </svg>
-      </button>
-      <ul class="nav-mobile">
-  <li class="nav-mobile__item nav-mobile__item--active">
-    <a href="#" class="nav-mobile__link">
-      <div class="nav-mobile__icon">
-        <svg>
-          <use xlink:href="./img/sprite.svg#HouseSimple"></use>
-        </svg>
-      </div>
-      Главная
-    </a>
-  </li>
-  <li class="nav-mobile__item">
-    <a href="#" class="nav-mobile__link">
-      <div class="nav-mobile__icon">
-        <svg>
-          <use xlink:href="./img/sprite.svg#UserCircle"></use>
-        </svg>
-      </div>
-      Контакты
-    </a>
-  </li>
-  <li class="nav-mobile__item">
-    <a href="#" class="nav-mobile__link">
-      <div class="nav-mobile__icon">
-        <svg>
-          <use xlink:href="./img/sprite.svg#NewspaperClipping"></use>
-        </svg>
-      </div>
-      Новости
-    </a>
-  </li>
-  <li class="nav-mobile__item">
-    <a href="#" class="nav-mobile__link">
-      <div class="nav-mobile__icon">
-        <svg>
-          <use xlink:href="./img/sprite.svg#PresentationChart"></use>
-        </svg>
-      </div>
-      Универ
-    </a>
-  </li>
-  <li class="nav-mobile__item">
-    <a href="#" class="nav-mobile__link">
-      <div class="nav-mobile__icon">
-        <svg>
-          <use xlink:href="./img/sprite.svg#SquaresFour"></use>
-        </svg>
-      </div>
-      Сервисы
-    </a>
-  </li>
-</ul>
-
-
-      <!-- footer -->
-      
+        </section>
+      </main>
     </div>
 
     <script src="./js/script.min.js"></script>
